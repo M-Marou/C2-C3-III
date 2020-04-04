@@ -180,3 +180,68 @@ header {
       font-weight: bold; }
     .recom__test button:hover {
       background-color: #479ec9; }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 2fr;
+  grid-gap: 10px; }
+  footer .footer__sante {
+    text-align: center;
+    padding: 20px 0;
+    grid-column: 1/4; }
+  footer .footer__list {
+    text-align: center;
+    display: block;
+    padding-top: 40px; }
+    footer .footer__list a {
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer; }
+      footer .footer__list a img {
+        margin-top: 10px;
+        margin-left: 10px; }
+    footer .footer__list .footer__list--Accueil {
+      color: #1A519E;
+      margin: 20px 0; }
+    footer .footer__list .footer__list--Conseil {
+      color: #2B2B2C; }
+    footer .footer__list .footer__list--button {
+      border: 1.2px solid #1A519E;
+      padding: 0px 10px 3px 8px;
+      border-radius: 10px;
+      font-size: 16px;
+      width: 100px;
+      margin: auto; }
+      footer .footer__list .footer__list--button img {
+        max-width: 19px;
+        min-height: 20px; }
+  footer .footer__contact {
+    text-align: center; }
+    footer .footer__contact h3 {
+      font-size: 27px;
+      color: #1078AD;
+      font-weight: bold; }
+    footer .footer__contact p {
+      font-size: 19px;
+      color: #2B2B2C;
+      font-weight: bold;
+      margin: 10px 0; }
+    footer .footer__contact a {
+      font-size: 27px;
+      color: #369D53;
+      font-weight: bold;
+      text-decoration: none; }
+  footer .footer__parag {
+    font-size: 18;
+    color: #7F7F7F;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 60px;
+    padding-left: 40px; }
+  footer .footer__bar {
+    background-color: #1078AD;
+    margin-top: 50px;
+    height: 36px;
+    grid-column: 1/4; }
