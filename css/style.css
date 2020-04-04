@@ -6,7 +6,8 @@
   font-family: 'Cairo', sans-serif; }
 
 nav {
-  background-image: url(/img/Bar5.png);
+  background-image: url(/img/navbar.png);
+  position: fixed;
   width: 100%;
   height: 92px;
   top: 0; }
@@ -43,7 +44,8 @@ nav {
 .post {
   background-color: #F4CF1B;
   text-align: center;
-  padding: 10px 30%; }
+  padding: 10px 30%;
+  margin-top: 92px; }
   .post p {
     color: #1078AD;
     font-weight: 600;
@@ -155,3 +157,26 @@ header {
       color: white;
       text-decoration-color: #F4CF1B;
       font-size: 25px; }
+  .recom__test {
+    grid-column: 1/3;
+    text-align: center;
+    background-color: #96C5DC;
+    padding-top: 10px;
+    padding-bottom: 30px; }
+    .recom__test p {
+      font-size: 30px;
+      color: #1078AD;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .recom__test img {
+      margin-bottom: 10px; }
+    .recom__test button {
+      background-color: #1078AD;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      width: 40%;
+      font-size: 32px;
+      font-weight: bold; }
+    .recom__test button:hover {
+      background-color: #479ec9; }
