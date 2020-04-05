@@ -30,6 +30,7 @@
     font-weight: bold;
     line-height: 30px;
     color: #1A519E;
+    padding-bottom: 50px;
     &__title {
         grid-column: 1/4;
         padding-top: 25px;
@@ -51,5 +52,57 @@
     }
     &__mouth {
         padding-top: 5px;
+    }
+}
+.info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 30px 0 55px 0;
+    background-color: #D0E5F0;
+    &__title {
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            color: #1078AD;
+        }
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            color: #1A519E;
+        }
+    }
+    &__website {
+        padding-top: 65px;
+        button {
+            background-color: #1078AD;
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 15px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(71, 158, 201);
+        }
+    }
+    &__button {
+        padding-top: 65px;
+        button {
+            background-color: #1078AD;
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 48px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(71, 158, 201);
+        }
     }
 }

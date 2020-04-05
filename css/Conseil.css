@@ -250,7 +250,8 @@ footer {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  color: #1A519E; }
+  color: #1A519E;
+  padding-bottom: 50px; }
   .protéger__title {
     grid-column: 1/4;
     padding-top: 25px; }
@@ -267,3 +268,45 @@ footer {
     padding-top: 10px; }
   .protéger__mouth {
     padding-top: 5px; }
+
+.info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 30px 0 55px 0;
+  background-color: #D0E5F0; }
+  .info__title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1078AD; }
+  .info__title p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1A519E; }
+  .info__website {
+    padding-top: 65px; }
+    .info__website button {
+      background-color: #1078AD;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 15px;
+      cursor: pointer; }
+    .info__website button:hover {
+      background-color: #479ec9; }
+  .info__button {
+    padding-top: 65px; }
+    .info__button button {
+      background-color: #1078AD;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 48px;
+      cursor: pointer; }
+    .info__button button:hover {
+      background-color: #479ec9; }
