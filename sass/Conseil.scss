@@ -1,0 +1,55 @@
+@import "mixin";
+@import "navbar";
+@import "sympt";
+@import "recom";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+.post {
+    background-color: #F4CF1B;
+    text-align: center;
+    padding: 10px 30%;
+    margin-top: 92px;
+    p {
+        color: #1078AD;
+        font-weight: 600;
+        line-height: 25px;
+    }
+}
+.protéger {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #1A519E;
+    &__title {
+        grid-column: 1/4;
+        padding-top: 25px;
+        h2 {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #1078AD;
+        }
+    }
+    &__house {
+        grid-column: 1/4;
+    }
+    &__hands {
+        padding-top: 35px;
+    }
+    &__mask {
+        padding-top: 10px;
+    }
+    &__mouth {
+        padding-top: 5px;
+    }
+}
