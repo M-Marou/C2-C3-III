@@ -1,0 +1,48 @@
+@import "navbar";
+@import "recom";
+@import "footer";
+@import "mixin";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    text-align: center;
+    h2{
+        font-size: 32px;
+        font-weight: bold;
+        color: #1078AD;
+    }
+    &__process {
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+    &__reboot {
+        background-color: #96C5DC;
+        width: 80%;
+        margin: auto;
+        border-radius: 5px;
+        padding: 20px 50px 35px 50px;
+        margin-bottom: 40px;
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 36px;
+        }
+        &--line {
+            background-color: #F4CF1B;
+            width: 200px;
+            height: 3px;
+            margin: 20px auto 15px auto;
+        }
+    }
+        button {
+            @include AcButton(25%);
+            margin-bottom: 40px;
+        }
+        button:hover {
+            background-color: rgb(71, 158, 201);
+        }
+}

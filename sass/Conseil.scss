@@ -10,6 +10,13 @@
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
 }
+nav {
+    .nav__list{
+        .nav__list--Conseil {
+                color: #1A519E; 
+            }
+    }
+}
 .post {
     background-color: #F4CF1B;
     text-align: center;
@@ -79,11 +86,14 @@
             background-color: #1078AD;
             font-size: 17px;
             font-weight: bold;
-            color: white;
             border: none;
             border-radius: 5px;
             padding: 15px 15px;
             cursor: pointer;
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
         button:hover {
             background-color: rgb(71, 158, 201);
@@ -125,6 +135,21 @@
             font-weight: bold;
             line-height: 40px;
             color: #1078AD;
+        }
+    }
+}
+footer{
+    .footer__list{
+        .footer__list--Accueil {
+            margin: 20px 0;
+            a{
+                color: #2B2B2C;
+            }
+        }
+        .footer__list--Conseil {
+            a{
+                color: #1A519E;
+            }
         }
     }
 }

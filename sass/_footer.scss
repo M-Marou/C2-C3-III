@@ -29,12 +29,15 @@ footer {
             }
         }
         .footer__list--Accueil {
-            color: #1A519E;
             margin: 20px 0;
-            
+            a{
+                color: #2B2B2C;
+            }
         }
         .footer__list--Conseil {
-            color: #2B2B2C;
+            a{
+                color: #2B2B2C;
+            }
         }
         .footer__list--button {
             border: 1.2px solid #1A519E;
@@ -43,6 +46,9 @@ footer {
             font-size: 16px;
             width: 100px;
             margin: auto;
+            a{
+                color: #1A519E;;
+            }
             img {
                 max-width: 19px;
                 min-height: 20px;

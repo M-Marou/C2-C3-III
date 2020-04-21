@@ -36,7 +36,8 @@ nav {
       border: 1.2px solid #1A519E;
       padding: 3px 10px 3px 8px;
       border-radius: 10px;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #1A519E; }
       nav .nav__list .nav__list--button img {
         max-width: 19px;
         min-height: 20px; }
@@ -75,7 +76,11 @@ header {
       color: white;
       width: 100%;
       font-size: 32px;
-      font-weight: bold; }
+      font-weight: bold;
+      cursor: pointer; }
+      header .header__content button a {
+        text-decoration: none;
+        color: white; }
     header .header__content button:hover {
       background-color: #479ec9; }
 
@@ -177,7 +182,11 @@ header {
       color: white;
       width: 40%;
       font-size: 32px;
-      font-weight: bold; }
+      font-weight: bold;
+      cursor: pointer; }
+      .recom__test button a {
+        text-decoration: none;
+        color: white; }
     .recom__test button:hover {
       background-color: #479ec9; }
 
@@ -203,9 +212,10 @@ footer {
         margin-top: 10px;
         margin-left: 10px; }
     footer .footer__list .footer__list--Accueil {
-      color: #1A519E;
       margin: 20px 0; }
-    footer .footer__list .footer__list--Conseil {
+      footer .footer__list .footer__list--Accueil a {
+        color: #1A519E; }
+    footer .footer__list .footer__list--Conseil a {
       color: #2B2B2C; }
     footer .footer__list .footer__list--button {
       border: 1.2px solid #1A519E;
@@ -214,6 +224,8 @@ footer {
       font-size: 16px;
       width: 100px;
       margin: auto; }
+      footer .footer__list .footer__list--button a {
+        color: #1A519E; }
       footer .footer__list .footer__list--button img {
         max-width: 19px;
         min-height: 20px; }

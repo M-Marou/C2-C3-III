@@ -44,6 +44,7 @@ nav {
             padding: 3px 10px 3px 8px;
             border-radius: 10px;
             font-size: 16px;
+            color: #1A519E;;
             img {
                 max-width: 19px;
                 min-height: 20px;
@@ -84,6 +85,10 @@ header {
         }
         button {
             @include AcButton(100%);
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
         button:hover {
             background-color: rgb(71, 158, 201);
@@ -201,6 +206,10 @@ header {
         }
         button {
             @include AcButton(40%);
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
         button:hover {
             background-color: rgb(71, 158, 201);
@@ -232,12 +241,15 @@ footer {
             }
         }
         .footer__list--Accueil {
-            color: #1A519E;
             margin: 20px 0;
-            
+            a{
+                color: #1A519E;
+            }
         }
         .footer__list--Conseil {
-            color: #2B2B2C;
+            a{
+                color: #2B2B2C;
+            }
         }
         .footer__list--button {
             border: 1.2px solid #1A519E;
@@ -246,6 +258,9 @@ footer {
             font-size: 16px;
             width: 100px;
             margin: auto;
+            a{
+                color: #1A519E;  
+            }
             img {
                 max-width: 19px;
                 min-height: 20px;

@@ -70,6 +70,10 @@
         }
         button {
             @include AcButton(40%);
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
         button:hover {
             background-color: rgb(71, 158, 201);
