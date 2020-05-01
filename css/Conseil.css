@@ -10,7 +10,8 @@ nav {
   position: fixed;
   width: 100%;
   height: 92px;
-  top: 0; }
+  top: 0;
+  z-index: 1000; }
   nav .nav__Logo img {
     max-width: 67px;
     margin-left: 30px;
