@@ -291,7 +291,8 @@ footer {
 .quiz {
   padding-top: 130px;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+  display: none; }
   .quiz__progress {
     margin: auto;
     width: 99%;

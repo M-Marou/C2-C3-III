@@ -185,31 +185,36 @@ const allQuestions=[
     }
 ];
 
+const StartBtn = document.querySelector('.StartBtn')
 const CurrentQuestion = document.querySelector('.question')
 const prevBtn = document.querySelector('.prev')
 const nextBtn = document.querySelector('.next')
 const Q_Box = document.querySelector('.quiz__questions')
 const OptionsInput = document.querySelector('.OptionsInput')
-const StartBtn = document.querySelector('.StartBtn')
-const Info = document.querySelector('.info')
+const Préambule = document.querySelector('.info')
 const Quiz = document.querySelector('.quiz')
 const QuestionNumber = document.querySelector('.quiz__progress--number')
 const progressBar = document.querySelector('.bar')
-const stepper = document.querySelector('.stepper h3')
+const stepper = document.querySelectorAll('.stepper h3')
+
+// console.log(stepper[0]);
 
 let currentIndex = 0;
+
+// start test function :
 
 StartBtn.addEventListener('click', startTest)
 function startTest() {
     stepper[0].classList.remove('select')
     stepper[1].classList.add('select')
     StartBtn.style.display = 'none'
-    Info.style.display = 'none'
+    Préambule.style.display = 'none'
     Quiz.style.display = 'block'
     hideprevious()
-    // nextBtn.disabled = true
     showQuestion(allQuestions[currentIndex])
 }
+
+// display question function :
 
 function showQuestion(question) {
 
@@ -219,9 +224,7 @@ function showQuestion(question) {
     const input = question.input
 
     if (question.input.type === 'radio') {
-
         OpInp.forEach(options => {
-
             OptionsInput.innerHTML += `
                     <div>
                         <input type="radio" name="${input.id}" id="${options}">
@@ -229,13 +232,10 @@ function showQuestion(question) {
                         <span>${options}</span> </label>
                     </div>`
         })
-
     } else {
-
         OptionsInput.innerHTML += `<input type="number" name="${input.id}" id="${input.name}" min="${input.min}" max="${input.max}" placeholder="${input.min} - ${input.max}">
         <span class="input-span">${input.name}</span>`
     }
-
 }
 
 nextBtn.addEventListener('click', () => {
@@ -266,6 +266,8 @@ prevBtn.addEventListener('click', () => {
     }
 })
 
+// hide previous button function :
+
 function hideprevious() {
     if (currentIndex === 0) {
         prevBtn.classList.add('hide')
@@ -273,13 +275,11 @@ function hideprevious() {
         prevBtn.classList.remove('hide')
     }
 }
-
+// follow question progress function :
 
 function folowProgress(number) {
-
-    const currentNmber = number + 1
-
-    QuestionNumber.innerText = currentNmber
-    progressBar.style.width = `calc(${currentNmber} * calc(100% / 22))`
+    const currentNumber = number + 1
+    QuestionNumber.innerText = currentNumber
+    progressBar.style.width = `calc(${currentNumber} * calc(100% / 22))`
 
 }
