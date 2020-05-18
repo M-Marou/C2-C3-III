@@ -1,0 +1,24 @@
+{
+  "name": "c2-c3-iii",
+  "version": "1.0.0",
+  "description": "C'est un projet pour valider les compétences C3N3 (C2N3).",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "node-sass --watch sass -o css",
+    "compile-sass": "node-sass sass -o css",
+    "compress-sass": "node-sass sass -o css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Marou/C2-C3-III.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Marou/C2-C3-III/issues"
+  },
+  "homepage": "https://github.com/M-Marou/C2-C3-III#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

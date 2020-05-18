@@ -1,0 +1,155 @@
+@import "mixin";
+@import "navbar";
+@import "sympt";
+@import "recom";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+nav {
+    .nav__list{
+        .nav__list--Conseil {
+                color: #1A519E; 
+            }
+    }
+}
+.post {
+    background-color: #F4CF1B;
+    text-align: center;
+    padding: 10px 30%;
+    margin-top: 92px;
+    p {
+        color: #1078AD;
+        font-weight: 600;
+        line-height: 25px;
+    }
+}
+.protéger {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #1A519E;
+    padding-bottom: 50px;
+    &__title {
+        grid-column: 1/4;
+        padding-top: 25px;
+        h2 {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #1078AD;
+        }
+    }
+    &__house {
+        grid-column: 1/4;
+    }
+    &__hands {
+        padding-top: 35px;
+    }
+    &__mask {
+        padding-top: 10px;
+    }
+    &__mouth {
+        padding-top: 5px;
+    }
+}
+.info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 30px 0 55px 0;
+    background-color: #D0E5F0;
+    &__title {
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            color: #1078AD;
+        }
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            color: #1A519E;
+        }
+    }
+    &__website {
+        padding-top: 65px;
+        button {
+            background-color: #1078AD;
+            font-size: 17px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 15px;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        button:hover {
+            background-color: rgb(71, 158, 201);
+        }
+    }
+    &__button {
+        padding-top: 65px;
+        button {
+            background-color: #1078AD;
+            font-size: 17px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 48px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(71, 158, 201);
+        }
+    }
+}
+.CO19 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 49px;
+    color: #1A519E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+    &__title {
+        grid-column: 1/3;
+        padding: 40px 0 80px 0;
+        h2 {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #1078AD;
+        }
+    }
+}
+footer{
+    .footer__list{
+        .footer__list--Accueil {
+            margin: 20px 0;
+            a{
+                color: #2B2B2C;
+            }
+        }
+        .footer__list--Conseil {
+            a{
+                color: #1A519E;
+            }
+        }
+    }
+}

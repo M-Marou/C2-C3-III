@@ -1,0 +1,10 @@
+@mixin AcButton ($wd) {
+    background-color: #1078AD;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: $wd;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}

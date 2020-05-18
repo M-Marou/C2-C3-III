@@ -1,0 +1,354 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
+
+nav {
+  background-image: url(/img/navbar.png);
+  position: fixed;
+  width: 100%;
+  height: 92px;
+  top: 0;
+  z-index: 1000; }
+  nav .nav__Logo img {
+    max-width: 67px;
+    margin-left: 30px;
+    margin-top: 5px;
+    position: absolute; }
+  nav .nav__list {
+    float: right;
+    margin-top: 20px; }
+    nav .nav__list a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      margin-right: 30px;
+      cursor: pointer; }
+      nav .nav__list a img {
+        margin-top: 10px;
+        margin-left: 10px; }
+    nav .nav__list .nav__list--Accueil {
+      color: #2B2B2C; }
+    nav .nav__list .nav__list--Conseil {
+      color: #2B2B2C; }
+    nav .nav__list .nav__list--button {
+      border: 1.2px solid #1A519E;
+      padding: 3px 10px 3px 8px;
+      border-radius: 10px;
+      font-size: 16px;
+      color: #1A519E; }
+      nav .nav__list .nav__list--button img {
+        max-width: 19px;
+        min-height: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
+
+.sympt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 65%;
+  margin: auto;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px; }
+  .sympt__title {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #1078AD;
+    padding: 30px 0; }
+  .sympt__fièvre {
+    padding: 10px; }
+    .sympt__fièvre img {
+      margin-bottom: 15px; }
+  .sympt__nausées {
+    padding: 10px;
+    padding-top: 30px; }
+    .sympt__nausées img {
+      margin-bottom: 15px; }
+  .sympt__respiratoire {
+    padding: 10px; }
+    .sympt__respiratoire img {
+      margin-bottom: 15px; }
+  .sympt__gorge {
+    padding: 10px;
+    padding-top: 20px; }
+    .sympt__gorge img {
+      margin-bottom: 15px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
+
+.recom {
+  background-color: #1078AD;
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+  .recom__title {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #D0E5F0;
+    padding: 10px 0; }
+  .recom__parag {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 70px;
+    padding-bottom: 50px; }
+    .recom__parag span {
+      color: #000000; }
+  .recom__call {
+    text-align: center;
+    padding-top: 80px; }
+    .recom__call p {
+      font-size: 31px;
+      font-weight: bold;
+      color: #F4CF1B;
+      margin-bottom: 20px; }
+    .recom__call--number {
+      color: #1078AD;
+      background-color: #F4CF1B;
+      width: 50%;
+      margin: auto;
+      padding: 8px 0;
+      font-size: 30px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-bottom: 20px; }
+    .recom__call a {
+      color: white;
+      text-decoration-color: #F4CF1B;
+      font-size: 25px; }
+  .recom__test {
+    grid-column: 1/3;
+    text-align: center;
+    background-color: #96C5DC;
+    padding-top: 10px;
+    padding-bottom: 30px; }
+    .recom__test p {
+      font-size: 30px;
+      color: #1078AD;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .recom__test img {
+      margin-bottom: 10px; }
+    .recom__test button {
+      background-color: #1078AD;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      width: 40%;
+      font-size: 32px;
+      font-weight: bold;
+      cursor: pointer; }
+      .recom__test button a {
+        text-decoration: none;
+        color: white; }
+    .recom__test button:hover {
+      background-color: #479ec9; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 2fr;
+  grid-gap: 10px; }
+  footer .footer__sante {
+    text-align: center;
+    padding: 20px 0;
+    grid-column: 1/4; }
+  footer .footer__list {
+    text-align: center;
+    display: block;
+    padding-top: 40px; }
+    footer .footer__list a {
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer; }
+      footer .footer__list a img {
+        margin-top: 10px;
+        margin-left: 10px; }
+    footer .footer__list .footer__list--Accueil {
+      margin: 20px 0; }
+      footer .footer__list .footer__list--Accueil a {
+        color: #2B2B2C; }
+    footer .footer__list .footer__list--Conseil a {
+      color: #2B2B2C; }
+    footer .footer__list .footer__list--button {
+      border: 1.2px solid #1A519E;
+      padding: 0px 10px 3px 8px;
+      border-radius: 10px;
+      font-size: 16px;
+      width: 100px;
+      margin: auto; }
+      footer .footer__list .footer__list--button a {
+        color: #1A519E; }
+      footer .footer__list .footer__list--button img {
+        max-width: 19px;
+        min-height: 20px; }
+  footer .footer__contact {
+    text-align: center; }
+    footer .footer__contact h3 {
+      font-size: 27px;
+      color: #1078AD;
+      font-weight: bold; }
+    footer .footer__contact p {
+      font-size: 19px;
+      color: #2B2B2C;
+      font-weight: bold;
+      margin: 10px 0; }
+    footer .footer__contact a {
+      font-size: 27px;
+      color: #369D53;
+      font-weight: bold;
+      text-decoration: none; }
+  footer .footer__parag {
+    font-size: 18;
+    color: #7F7F7F;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 60px;
+    padding-left: 40px; }
+  footer .footer__bar {
+    background-color: #1078AD;
+    margin-top: 50px;
+    height: 36px;
+    grid-column: 1/4; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif; }
+
+nav .nav__list .nav__list--Conseil {
+  color: #1A519E; }
+
+.post {
+  background-color: #F4CF1B;
+  text-align: center;
+  padding: 10px 30%;
+  margin-top: 92px; }
+  .post p {
+    color: #1078AD;
+    font-weight: 600;
+    line-height: 25px; }
+
+.protéger {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #1A519E;
+  padding-bottom: 50px; }
+  .protéger__title {
+    grid-column: 1/4;
+    padding-top: 25px; }
+    .protéger__title h2 {
+      font-size: 35px;
+      font-weight: bold;
+      line-height: 40px;
+      color: #1078AD; }
+  .protéger__house {
+    grid-column: 1/4; }
+  .protéger__hands {
+    padding-top: 35px; }
+  .protéger__mask {
+    padding-top: 10px; }
+  .protéger__mouth {
+    padding-top: 5px; }
+
+.info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 30px 0 55px 0;
+  background-color: #D0E5F0; }
+  .info__title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1078AD; }
+  .info__title p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1A519E; }
+  .info__website {
+    padding-top: 65px; }
+    .info__website button {
+      background-color: #1078AD;
+      font-size: 17px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 15px;
+      cursor: pointer; }
+      .info__website button a {
+        text-decoration: none;
+        color: white; }
+    .info__website button:hover {
+      background-color: #479ec9; }
+  .info__button {
+    padding-top: 65px; }
+    .info__button button {
+      background-color: #1078AD;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 48px;
+      cursor: pointer; }
+    .info__button button:hover {
+      background-color: #479ec9; }
+
+.CO19 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 49px;
+  color: #1A519E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 100px; }
+  .CO19__title {
+    grid-column: 1/3;
+    padding: 40px 0 80px 0; }
+    .CO19__title h2 {
+      font-size: 35px;
+      font-weight: bold;
+      line-height: 40px;
+      color: #1078AD; }
+
+footer .footer__list .footer__list--Accueil {
+  margin: 20px 0; }
+  footer .footer__list .footer__list--Accueil a {
+    color: #2B2B2C; }
+
+footer .footer__list .footer__list--Conseil a {
+  color: #1A519E; }
