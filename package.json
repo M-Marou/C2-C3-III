@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/M-Marou/C2-C3-III#readme",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
